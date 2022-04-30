@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=./ react-scripts build && cp -R build ./reactApps",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
