@@ -1,5 +1,4 @@
 import { BrowserRouter, useRoutes } from 'react-router-dom';
-import './App.css';
 import Counter from './components/Counter';
 import TodoInsert from './components/TodoInsert';
 import TodoList from './components/TodoList';
@@ -8,7 +7,7 @@ import TodoList from './components/TodoList';
 const AppRoutes = () => {
   const routes = useRoutes([
     { path: '/cnd', element: 
-      <div className='main'>
+      <div>
           <Counter/>
           <TodoInsert/>
           <TodoList/>
@@ -19,7 +18,7 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AppRoutes />
     </BrowserRouter>
   );
