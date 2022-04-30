@@ -7,7 +7,7 @@ import TodoList from './components/TodoList';
 
 const AppRoutes = () => {
   const routes = useRoutes([
-    { path: '/counterNtodolist', element: 
+    { path: '/cnd', element: 
       <div className='main'>
           <Counter/>
           <TodoInsert/>
