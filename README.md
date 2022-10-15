@@ -15,5 +15,4 @@ https://songminhyung.com/cnd/
 
 
 ## ⚒️구현기능
-- 모든 상태를 redux에 저장해 ㄹㅇㄴ라 
-ㅏㅈㄷ러 
+- `useState`를 사용해 관리했던 상태를 `redux`를 사용해 
