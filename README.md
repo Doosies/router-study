@@ -15,4 +15,4 @@ https://songminhyung.com/cnd/
 
 
 ## ⚒️구현기능
-- `useState`를 사용해 관리했던 상태를 `redux`를 사용해 
+- `useState`를 사용해 관리했던 상태를 `redux`를 사용해 관리
